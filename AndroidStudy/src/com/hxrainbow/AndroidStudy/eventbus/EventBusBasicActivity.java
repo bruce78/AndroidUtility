@@ -43,7 +43,7 @@ public class EventBusBasicActivity extends FragmentActivity {
 		mButtons[0] = (Button) findViewById(R.id.btn_conversation);
 		mButtons[1] = (Button) findViewById(R.id.btn_address_list);
 		mButtons[2] = (Button) findViewById(R.id.btn_setting);
-		// °ÑµÚÒ»¸ötabÉèÎªÑ¡ÖĞ×´Ì¬
+		// æŠŠç¬¬ä¸€ä¸ªtabè®¾ä¸ºé€‰ä¸­çŠ¶æ€
 		mButtons[0].setSelected(true);
 	}
 	
@@ -61,7 +61,7 @@ public class EventBusBasicActivity extends FragmentActivity {
 
 	
 	/**
-	 * buttonµã»÷ÊÂ¼ş
+	 * buttonç‚¹å‡»äº‹ä»¶
 	 */
 	public void onTabClicked(View view) {
 		int clickIndex = -1;
@@ -86,7 +86,7 @@ public class EventBusBasicActivity extends FragmentActivity {
 			ft.show(mFragments[clickIndex]).commit();
 		}
 		mButtons[currentTabIndex].setSelected(false);
-		// °Ñµ±Ç°tabÉèÎªÑ¡ÖĞ×´Ì¬
+		// æŠŠå½“å‰tabè®¾ä¸ºé€‰ä¸­çŠ¶æ€
 		mButtons[clickIndex].setSelected(true);
 		currentTabIndex = clickIndex;
 	}

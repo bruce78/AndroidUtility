@@ -43,19 +43,19 @@ public class AFragment extends Fragment{
 	
 	private void initView(View fragment) {
 		Button buttonFirst = (Button)fragment.findViewById(R.id.buttonFirst);
-		buttonFirst.setText("µãÎÒ·¢ËÍ"+Event1To1.class.getSimpleName()+"ÊÂ¼ş");
+		buttonFirst.setText("ç‚¹æˆ‘å‘é€"+Event1To1.class.getSimpleName()+"äº‹ä»¶");
 		buttonFirst.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View v) {
-				EventBus.getDefault().post(new Event1To1("Ò»¶ÔÒ»ÊÂ¼ş"));
+				EventBus.getDefault().post(new Event1To1("ä¸€å¯¹ä¸€äº‹ä»¶"));
 			}});
 		
 		Button buttonSecond = (Button)fragment.findViewById(R.id.buttonSecond);
-		buttonSecond.setText("µãÎÒ·¢ËÍ"+Event1To2.class.getSimpleName()+"ÊÂ¼ş");
+		buttonSecond.setText("ç‚¹æˆ‘å‘é€"+Event1To2.class.getSimpleName()+"äº‹ä»¶");
 		buttonSecond.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View v) {
-				EventBus.getDefault().post(new Event1To2("Ò»¶Ô¶àÊÂ¼ş"));
+				EventBus.getDefault().post(new Event1To2("ä¸€å¯¹å¤šäº‹ä»¶"));
 			}});
 	}
 	

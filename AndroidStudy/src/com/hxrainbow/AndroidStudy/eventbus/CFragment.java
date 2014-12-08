@@ -48,6 +48,6 @@ public class CFragment extends Fragment{
 	}
 	
 	public void onEvent(Event1To2 event){
-		textView.setText("接收到事件："+event.toString());
+		textView.setText("鎺ユ敹鍒颁簨浠讹細"+event.toString());
 	}
 }

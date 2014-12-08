@@ -52,13 +52,13 @@ public class BFragment extends Fragment{
 	
 	public void onEvent(Event1To1 event){
 		String s = textView.getText().toString();
-		String message = s + "½ÓÊÕµ½PostThreadÊÂ¼ş£º"+event.toString();
+		String message = s + "æ¥æ”¶åˆ°PostThreadäº‹ä»¶ï¼š"+event.toString();
 		textView.setText(Html.fromHtml(message));
 	}
 	
 	public void onEventMainThread(Event1To1 event){
 		String s = textView.getText().toString();
-		String message = s + "½ÓÊÕµ½MainThreadÊÂ¼ş£º"+event.toString();
+		String message = s + "æ¥æ”¶åˆ°MainThreadäº‹ä»¶ï¼š"+event.toString();
 		textView.setText(Html.fromHtml(message));
 	}
 	
@@ -68,7 +68,7 @@ public class BFragment extends Fragment{
 			@Override
 			public void run() {
 				String s = textView.getText().toString();
-				final String message = s + "½ÓÊÕµ½BackgroundThreadÊÂ¼ş£º"+eventStr;
+				final String message = s + "æ¥æ”¶åˆ°BackgroundThreadäº‹ä»¶ï¼š"+eventStr;
 				textView.setText(Html.fromHtml(message));
 			}});
 	}
@@ -79,12 +79,12 @@ public class BFragment extends Fragment{
 			@Override
 			public void run() {
 				String s = textView.getText().toString();
-				final String message = s + "½ÓÊÕµ½AsyncÊÂ¼ş£º"+eventStr;
+				final String message = s + "æ¥æ”¶åˆ°Asyncäº‹ä»¶ï¼š"+eventStr;
 				textView.setText(Html.fromHtml(message));
 			}});
 	}
 	
 	public void onEvent(Event1To2 event){
-		textView.setText("½ÓÊÕµ½ÊÂ¼ş£º"+event.toString());
+		textView.setText("æ¥æ”¶åˆ°äº‹ä»¶ï¼š"+event.toString());
 	}
 }
