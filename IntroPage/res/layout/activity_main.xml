@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/index_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/subImg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@drawable/drawable_page_index" />
+
+        <ImageView
+            android:id="@+id/subImg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@drawable/drawable_page_index" />
+
+        <ImageView
+            android:id="@+id/subImg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@drawable/drawable_page_index" />
+
+        <ImageView
+            android:id="@+id/subImg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@drawable/drawable_page_index" />
+
+        <ImageView
+            android:id="@+id/subImg5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp"
+            android:src="@drawable/drawable_page_index" />
+    </LinearLayout>
+
+</RelativeLayout>
