@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/simple_l"
+        android:tag="0"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView-BaseAdapter-converView">
+    </Button>>
+    <Button
+        android:id="@+id/simple_title"
+        android:tag="1"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView-ArrayAdapter">
+    </Button>
+    <Button
+        android:id="@+id/simple_pic"
+        android:tag="2"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView-SimpleAdapter">
+    </Button>
+    <Button
+        android:id="@+id/simple_viewholder"
+        android:tag="3"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView-BaseAdapter-viewHolder">
+    </Button>
+    <Button
+        android:id="@+id/simple_sparseArr"
+        android:tag="4"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView-BaseAdapter-sparseArr">
+    </Button>
+
+</LinearLayout>
